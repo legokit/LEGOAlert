@@ -1,9 +1,9 @@
 {
   "name": "LEGOAlert",
   "version": "0.1.0",
-  "summary": "A short description of LEGOAlert.",
+  "summary": "The view interaction box component can use prompt box, inquiry box, attributed string box, image-text box, textField box, textView box, and custom box, and more support content scrolling, horizontal and vertical screen adaptation, and height customization. 视图交互框组件，可以使用提示框、询问框、富文本框、图文框、输入框、文本框、自定义框，更支持内容滚动、横竖屏适配、高度自定义。",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/564008993@qq.com/LEGOAlert",
+  "homepage": "https://github.com/legokit/LEGOAlert",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,14 @@
     "564008993@qq.com": "564008993@qq.com"
   },
   "source": {
-    "git": "https://github.com/564008993@qq.com/LEGOAlert.git",
+    "git": "https://github.com/legokit/LEGOAlert.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "LEGOAlert/Classes/**/*",
+  "resources": "LEGOAlert/Assets/*.bundle",
   "dependencies": {
     "Masonry": [
 

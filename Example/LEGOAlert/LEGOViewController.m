@@ -8,7 +8,7 @@
 
 #import "LEGOViewController.h"
 #import <Masonry/Masonry.h>
-#import "LEGOAlert.h"
+#import <LEGOAlert/LEGOAlert.h>
 
 @interface LEGOViewController ()
 @property (nonatomic, strong) UITableView *tableView;
@@ -95,7 +95,7 @@
                 msg.textAlignment = NSTextAlignmentCenter;
                 msg.textInsets = UIEdgeInsetsMake(12, 30, -23, -30);
                                 
-                [[[[[[LEGOAlertView new] addMessage:msg] addTitle:@"title"] addButtons:@[@"1",@"2",@"3",@"4"]] addCompletedHander:^(NSInteger index) {
+                [[[[[[[LEGOAlertView new] addMessage:msg] addTitle:@"title"] addButtons:@[@"1",@"2",@"3",@"4"]] addCloseButton] addCompletedHander:^(NSInteger index) {
                     
                 }] show];
             }

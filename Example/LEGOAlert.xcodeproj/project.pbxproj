@@ -24,20 +24,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9A7D32D3C9F4F8D930303F8B /* Pods_LEGOAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686496F0D83809EA1E5C5F9A /* Pods_LEGOAlert_Example.framework */; };
 		C9D19C94825FF36D6FCB53DC /* Pods_LEGOAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F732C8D0F1341BC77C5CBA /* Pods_LEGOAlert_Tests.framework */; };
-		E8CD14C623F277CC0062ADFB /* LEGOAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8CD14AE23F277CC0062ADFB /* LEGOAlert.bundle */; };
-		E8CD14C723F277CC0062ADFB /* LEGOAlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14B023F277CC0062ADFB /* LEGOAlertMessage.m */; };
-		E8CD14C823F277CC0062ADFB /* LEGOAlertInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14B123F277CC0062ADFB /* LEGOAlertInputTextField.m */; };
-		E8CD14C923F277CC0062ADFB /* LEGOAlertFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14B323F277CC0062ADFB /* LEGOAlertFooterView.m */; };
-		E8CD14CA23F277CC0062ADFB /* LEGOAlertMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14B423F277CC0062ADFB /* LEGOAlertMainView.m */; };
-		E8CD14CB23F277CC0062ADFB /* LEGOAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14B623F277CC0062ADFB /* LEGOAlert.m */; };
-		E8CD14CC23F277CC0062ADFB /* FlipPresentAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14BA23F277CC0062ADFB /* FlipPresentAnimationController.m */; };
-		E8CD14CD23F277CC0062ADFB /* LEGOAlertCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14BB23F277CC0062ADFB /* LEGOAlertCloseButton.m */; };
-		E8CD14CE23F277CC0062ADFB /* FlipDismissAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14C023F277CC0062ADFB /* FlipDismissAnimationController.m */; };
-		E8CD14CF23F277CC0062ADFB /* LEGOAlertHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14C223F277CC0062ADFB /* LEGOAlertHeaderView.m */; };
-		E8CD14D023F277CC0062ADFB /* LEGOAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14C323F277CC0062ADFB /* LEGOAlertView.m */; };
-		E8CD14D123F277CC0062ADFB /* LEGOAlertInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14C423F277CC0062ADFB /* LEGOAlertInputTextView.m */; };
-		E8CD14D423F279710062ADFB /* UIApplication+LEGOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14D323F279710062ADFB /* UIApplication+LEGOViewController.m */; };
-		E8CD14D723F279F40062ADFB /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CD14D623F279F40062ADFB /* UITextView+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,33 +66,6 @@
 		B836AE693628E5CC8CE3291E /* Pods-LEGOAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGOAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-LEGOAlert_Example/Pods-LEGOAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8B2434F3572D0A9BA1A8989 /* Pods-LEGOAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGOAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-LEGOAlert_Tests/Pods-LEGOAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4EFFF88EEA7E331ACD14319 /* Pods-LEGOAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGOAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-LEGOAlert_Example/Pods-LEGOAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E8CD14AE23F277CC0062ADFB /* LEGOAlert.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LEGOAlert.bundle; sourceTree = "<group>"; };
-		E8CD14B023F277CC0062ADFB /* LEGOAlertMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertMessage.m; sourceTree = "<group>"; };
-		E8CD14B123F277CC0062ADFB /* LEGOAlertInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertInputTextField.m; sourceTree = "<group>"; };
-		E8CD14B223F277CC0062ADFB /* LEGOAlertCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertCloseButton.h; sourceTree = "<group>"; };
-		E8CD14B323F277CC0062ADFB /* LEGOAlertFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertFooterView.m; sourceTree = "<group>"; };
-		E8CD14B423F277CC0062ADFB /* LEGOAlertMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertMainView.m; sourceTree = "<group>"; };
-		E8CD14B523F277CC0062ADFB /* LEGOAlertHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertHeaderView.h; sourceTree = "<group>"; };
-		E8CD14B623F277CC0062ADFB /* LEGOAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlert.m; sourceTree = "<group>"; };
-		E8CD14B723F277CC0062ADFB /* FlipDismissAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipDismissAnimationController.h; sourceTree = "<group>"; };
-		E8CD14B823F277CC0062ADFB /* LEGOAlertInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertInputTextView.h; sourceTree = "<group>"; };
-		E8CD14B923F277CC0062ADFB /* LEGOAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertView.h; sourceTree = "<group>"; };
-		E8CD14BA23F277CC0062ADFB /* FlipPresentAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipPresentAnimationController.m; sourceTree = "<group>"; };
-		E8CD14BB23F277CC0062ADFB /* LEGOAlertCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertCloseButton.m; sourceTree = "<group>"; };
-		E8CD14BC23F277CC0062ADFB /* LEGOAlertFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertFooterView.h; sourceTree = "<group>"; };
-		E8CD14BD23F277CC0062ADFB /* LEGOAlertMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertMainView.h; sourceTree = "<group>"; };
-		E8CD14BE23F277CC0062ADFB /* LEGOAlertInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertInputTextField.h; sourceTree = "<group>"; };
-		E8CD14BF23F277CC0062ADFB /* LEGOAlertMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlertMessage.h; sourceTree = "<group>"; };
-		E8CD14C023F277CC0062ADFB /* FlipDismissAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipDismissAnimationController.m; sourceTree = "<group>"; };
-		E8CD14C123F277CC0062ADFB /* LEGOAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGOAlert.h; sourceTree = "<group>"; };
-		E8CD14C223F277CC0062ADFB /* LEGOAlertHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertHeaderView.m; sourceTree = "<group>"; };
-		E8CD14C323F277CC0062ADFB /* LEGOAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertView.m; sourceTree = "<group>"; };
-		E8CD14C423F277CC0062ADFB /* LEGOAlertInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGOAlertInputTextView.m; sourceTree = "<group>"; };
-		E8CD14C523F277CC0062ADFB /* FlipPresentAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipPresentAnimationController.h; sourceTree = "<group>"; };
-		E8CD14D223F279710062ADFB /* UIApplication+LEGOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LEGOViewController.h"; sourceTree = "<group>"; };
-		E8CD14D323F279710062ADFB /* UIApplication+LEGOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LEGOViewController.m"; sourceTree = "<group>"; };
-		E8CD14D523F279F40062ADFB /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		E8CD14D623F279F40062ADFB /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		EFB8A94F3BB5205C754F9611 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,7 +143,6 @@
 		6003F593195388D20070C39A /* Example for LEGOAlert */ = {
 			isa = PBXGroup;
 			children = (
-				E8CD14AC23F277CC0062ADFB /* LBAlert */,
 				6003F59C195388D20070C39A /* LEGOAppDelegate.h */,
 				6003F59D195388D20070C39A /* LEGOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -236,56 +194,6 @@
 				8B9B10641ECEC14546AC67C5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		E8CD14AC23F277CC0062ADFB /* LBAlert */ = {
-			isa = PBXGroup;
-			children = (
-				E8CD14AD23F277CC0062ADFB /* Source */,
-			);
-			path = LBAlert;
-			sourceTree = "<group>";
-		};
-		E8CD14AD23F277CC0062ADFB /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				E8CD14AE23F277CC0062ADFB /* LEGOAlert.bundle */,
-				E8CD14AF23F277CC0062ADFB /* class */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		E8CD14AF23F277CC0062ADFB /* class */ = {
-			isa = PBXGroup;
-			children = (
-				E8CD14C123F277CC0062ADFB /* LEGOAlert.h */,
-				E8CD14B623F277CC0062ADFB /* LEGOAlert.m */,
-				E8CD14B923F277CC0062ADFB /* LEGOAlertView.h */,
-				E8CD14C323F277CC0062ADFB /* LEGOAlertView.m */,
-				E8CD14BD23F277CC0062ADFB /* LEGOAlertMainView.h */,
-				E8CD14B423F277CC0062ADFB /* LEGOAlertMainView.m */,
-				E8CD14BF23F277CC0062ADFB /* LEGOAlertMessage.h */,
-				E8CD14B023F277CC0062ADFB /* LEGOAlertMessage.m */,
-				E8CD14B823F277CC0062ADFB /* LEGOAlertInputTextView.h */,
-				E8CD14B123F277CC0062ADFB /* LEGOAlertInputTextField.m */,
-				E8CD14B523F277CC0062ADFB /* LEGOAlertHeaderView.h */,
-				E8CD14C223F277CC0062ADFB /* LEGOAlertHeaderView.m */,
-				E8CD14BC23F277CC0062ADFB /* LEGOAlertFooterView.h */,
-				E8CD14B323F277CC0062ADFB /* LEGOAlertFooterView.m */,
-				E8CD14B223F277CC0062ADFB /* LEGOAlertCloseButton.h */,
-				E8CD14BB23F277CC0062ADFB /* LEGOAlertCloseButton.m */,
-				E8CD14BE23F277CC0062ADFB /* LEGOAlertInputTextField.h */,
-				E8CD14C423F277CC0062ADFB /* LEGOAlertInputTextView.m */,
-				E8CD14C523F277CC0062ADFB /* FlipPresentAnimationController.h */,
-				E8CD14BA23F277CC0062ADFB /* FlipPresentAnimationController.m */,
-				E8CD14B723F277CC0062ADFB /* FlipDismissAnimationController.h */,
-				E8CD14C023F277CC0062ADFB /* FlipDismissAnimationController.m */,
-				E8CD14D223F279710062ADFB /* UIApplication+LEGOViewController.h */,
-				E8CD14D323F279710062ADFB /* UIApplication+LEGOViewController.m */,
-				E8CD14D523F279F40062ADFB /* UITextView+Placeholder.h */,
-				E8CD14D623F279F40062ADFB /* UITextView+Placeholder.m */,
-			);
-			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				E8CD14C623F277CC0062ADFB /* LEGOAlert.bundle in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -462,22 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8CD14CF23F277CC0062ADFB /* LEGOAlertHeaderView.m in Sources */,
-				E8CD14CA23F277CC0062ADFB /* LEGOAlertMainView.m in Sources */,
-				E8CD14D023F277CC0062ADFB /* LEGOAlertView.m in Sources */,
 				6003F59E195388D20070C39A /* LEGOAppDelegate.m in Sources */,
-				E8CD14CB23F277CC0062ADFB /* LEGOAlert.m in Sources */,
-				E8CD14CC23F277CC0062ADFB /* FlipPresentAnimationController.m in Sources */,
-				E8CD14D423F279710062ADFB /* UIApplication+LEGOViewController.m in Sources */,
-				E8CD14CE23F277CC0062ADFB /* FlipDismissAnimationController.m in Sources */,
-				E8CD14C823F277CC0062ADFB /* LEGOAlertInputTextField.m in Sources */,
 				6003F5A7195388D20070C39A /* LEGOViewController.m in Sources */,
-				E8CD14C723F277CC0062ADFB /* LEGOAlertMessage.m in Sources */,
-				E8CD14C923F277CC0062ADFB /* LEGOAlertFooterView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				E8CD14CD23F277CC0062ADFB /* LEGOAlertCloseButton.m in Sources */,
-				E8CD14D123F277CC0062ADFB /* LEGOAlertInputTextView.m in Sources */,
-				E8CD14D723F279F40062ADFB /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
