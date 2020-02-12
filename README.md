@@ -107,7 +107,6 @@ If you prefer not to use any of the dependency mentioned above, you can integrat
 ```
 [LEGOAlert showImageWith:[UIImage imageNamed:@"image_xxx_2"] message:@"123"]；
 ```
-![image](https://github.com/legokit/LEGOAlert/blob/master/Resources/image-text.jpeg)
 
 
 For details, see example for LEGOAlert.
