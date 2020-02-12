@@ -1,2 +1,29 @@
 # LEGOAlert
-The view interaction box component can use prompt box, inquiry box, attributed string box, image-text box, textField box, textView box, and custom box, and more support content scrolling, horizontal and vertical screen adaptation, and height customization. 视图交互框组件，可以使用提示框、询问框、富文本框、图文框、输入框、文本框、自定义框，更支持内容滚动、横竖屏适配、高度自定义。
+
+[![CI Status](https://img.shields.io/travis/564008993@qq.com/LEGOAlert.svg?style=flat)](https://travis-ci.org/564008993@qq.com/LEGOAlert)
+[![Version](https://img.shields.io/cocoapods/v/LEGOAlert.svg?style=flat)](https://cocoapods.org/pods/LEGOAlert)
+[![License](https://img.shields.io/cocoapods/l/LEGOAlert.svg?style=flat)](https://cocoapods.org/pods/LEGOAlert)
+[![Platform](https://img.shields.io/cocoapods/p/LEGOAlert.svg?style=flat)](https://cocoapods.org/pods/LEGOAlert)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+LEGOAlert is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'LEGOAlert'
+```
+
+## Author
+
+564008993@qq.com, 564008993@qq.com
+
+## License
+
+LEGOAlert is available under the MIT license. See the LICENSE file for more info.

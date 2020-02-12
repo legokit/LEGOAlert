@@ -1,0 +1,6 @@
+framework module LEGOAlert {
+  umbrella header "LEGOAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

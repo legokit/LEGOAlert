@@ -1,0 +1,27 @@
+{
+  "name": "LEGOAlert",
+  "version": "0.1.0",
+  "summary": "A short description of LEGOAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/564008993@qq.com/LEGOAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "564008993@qq.com": "564008993@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/564008993@qq.com/LEGOAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LEGOAlert/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

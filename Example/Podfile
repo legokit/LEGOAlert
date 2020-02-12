@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LEGOAlert_Example' do
+  pod 'LEGOAlert', :path => '../'
+  pod 'Masonry'
+  target 'LEGOAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
